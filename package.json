@@ -1,0 +1,21 @@
+{
+  "name": "auto-i18n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "unbuild && changelogen --release && pnpm publish && git push --follow-tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "changelogen": "^0.5.5",
+    "eslint": "^8.56.0",
+    "eslint-config-code-style-lint-ts": "^3.0.8",
+    "pathe": "^1.1.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
+  }
+}
